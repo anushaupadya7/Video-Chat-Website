@@ -1,11 +1,3 @@
-/*
-* Template Name : Montia - Responsive Bootstrap Landing Template
-* Version : 1.0.0
-* Created by : Themesbrand
-* File : Main css file
-*/
-
-
 body {
     font-family: 'Roboto', sans-serif;
     color: #252525;
@@ -166,7 +158,7 @@ p {
     clip-path: none;
 }
 
-/*=====================
+/* /*=====================
     HOME - 2
 =====================*/
 
@@ -186,7 +178,7 @@ p {
     position: absolute;
     top: 0px;
     opacity: 0.6;
-}
+} */
 
 /*=========================
     HOME - 3
@@ -503,11 +495,12 @@ p {
     border-radius: 10px;
 }
 
-.play-video-btn {
+.fa-play-circle {
     width: 81px;
     height: 81px;
     line-height: 82px;
-    
+    background-color:rgb(195, 237, 243);
+
     display: inline-block;
     font-size: 56px;
     text-align: center;
@@ -808,7 +801,7 @@ p {
     border-radius: 0;
     color: #fff;
     border-color: #ccc;
-    box-shadow:
+    box-shadow:10px;
 }
 
 .panel .panel-title {
@@ -934,25 +927,6 @@ p {
     display: inline-block;
 }
 
-.footer-social li a i.facebook {
-    background-color: #5472d2;
-    border-color: #5472d2;
-}
-
-.footer-social li a i.instagram {
-    background-color: #e43667;
-    border-color: #e43667;
-}
-
-.footer-social li a i.twitter {
-    background-color: #1DA1F2;
-    border-color: #1DA1F2;
-}
-
-.footer-social li a i.linkedin {
-    background-color: #0173B2;
-    border-color: #0173B2;
-}
 
 .footer-desc {
     line-height: 26px;
