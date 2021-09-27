@@ -9,7 +9,7 @@
 
     <link rel="shortcut icon" href="images/favicon.ico">
 
-    <title>Montia - Responsive Bootstrap 4 Landing Page </title>
+    <title>Sign In </title>
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
@@ -39,8 +39,8 @@
 </head>
 
     <body>
-         <!-- Navigation Bar-->
-         <header id="topnav" class="defaultscroll fixed-top sticky">
+        <!-- Navigation Bar-->
+        <header id="topnav" class="defaultscroll fixed-top sticky">
             <div class="container">
                 <!-- Logo container-->
                 <div>
@@ -68,6 +68,24 @@
                     <ul class="navigation-menu">
                         <li class="">
                             <a href="index.html">home</a>
+                        
+                        <li class="has-submenu">
+                            <a href="#">More</a>
+                            <span class="menu-arrow"></span>
+
+                            <ul class="submenu">
+
+                                
+                                
+                                <li class="has-submenu">
+                                    
+                                        <li><a href="signup.html">Sign Up</a></li>
+                                        <li><a href="signin.html">Sign In</a></li>
+                                    
+                                </li>
+                                
+
+                            </ul>
                         </li>
 
                         
@@ -77,138 +95,120 @@
                 </div>
             </div>
         </header>
+
+
         <!-- home start -->
         <section class="section bg-sub-page-home">
             <div class="bg-overlay"></div>
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 pt-5 page-next-level text-center">
-                        <h4 class="pt-3">Frequently Asked Questions</h4>
-                        <div class="page-next text-light"> <a href="index.html">Home</a>/<span>Faq</span> </div>
+                        <h4 class="pt-3">Login Here...</h4>
+                        <div class="page-next text-light"> <a href="index.html">Home</a>/<span>Login</span> </div>
                     </div>                    
                 </div>
             </div>
         </section>
-        <!-- home end -->   
+        <!-- home end -->
 
-        <!-- Faq -->
-
+        <!-- login page -->
         <section class="section">
             <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-8">
+                        <form role="form" class="intro-form">
+                            <h3 class="text-center"> Login To Your Account </h3>
+                            
+                            <div class="form-group">
+                                <label>Email Address</label>
+                                <input type="text" class="form-control" placeholder="Email Address" required="required">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label>Password</label>
+                                <input type="password" class="form-control" placeholder="Password" required="required">
+                            </div>
+
+                            <div class="form-group">
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customControlAutosizing">
+                                    <label class="custom-control-label" for="customControlAutosizing">Remember me</label>
+                                </div>
+                            </div>
+
+                            <div class="form-group text-center">
+                                <button type="submit" class="btn btn-custom btn-block text-uppercase">Log in Now</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
                 <div class="row">
-                    <div class="col-md-12">
-                        <h3 class="title text-center mb-5">Simple Questions</h3>
-                    </div>
-                </div>
-
-                <div class="row pt-3">
-                    <div class="col-md-6">
-                        <div class="custom-faq">
-
-                            <h4> any question on our web ?</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, dolorum, vero ipsum molestiae minima odio quo voluptate illum excepturi quam cum voluptates doloribus quae nisi tempore necessitatibus dolores ducimus enim libero eaque explicabo suscipit animi at quaerat aliquid ex expedita perspiciatis? Saepe, aperiam, nam unde quas beatae vero.</p>
-
-                            <div class="underline"></div>
-
-                           <h4> can I make How much money  ?</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, fugiat iste nisi tempore nesciunt nemo fuga? Nesciunt, delectus laboriosam nisi repudiandae nam fuga saepe animi recusandae.</p>
-
-                            <div class="underline"></div>
-
-                            <h4> What is a video chat web ?</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, quisquam atque vero delectus corrupti! Quo, maiores, dolorem, hic commodi nulla ratione accusamus doloribus fuga magnam id temporibus dignissimos deleniti quidem ipsam corporis sapiente nam expedita saepe quas Vero, assumenda.</p>
-
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="custom-faq">
-
-                            <h4>add smthg here okay ?</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, dolorum, vero ipsum molestiae minima odio quo voluptate illum excepturi quam cum voluptates doloribus quae nisi tempore necessitatibus dolores ducimus enim libero eaque explicabo suscipit animi at quaerat aliquid ex expedita perspiciatis? Saepe, aperiam, nam unde quas beatae vero. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque </p>
-
-                            <div class="underline"></div>
-
-                           <h4>How can i get a money ?</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, fugiat iste nisi tempore nesciunt nemo fuga? Nesciunt, delectus laboriosam nisi repudiandae nam fuga saepe animi recusandae. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
-
-                            <div class="underline"></div>
-
-                            <h4>add smthg here oakyaa ?</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, quisquam atque vero delectus corrupti! Quo, maiores, dolorem, hic commodi nulla ratione accusamus doloribus fuga magnam id temporibus dignissimos deleniti quidem ipsam corporis sapiente nam expedita saepe quas Vero, assumenda.</p>
-
-                        </div>
-                    </div>  
-                </div>
-            </div>
-        </section>
-        <!-- Faq end -->
-
-        
-         <!-- Footer -->
-         <section class="bg-dark footer" id="contact">
-            <div class="container">
-                <div class="row pt-5">
-                    <div class="col-lg-4">
-                        <h5 class="text-white footer-title ">About Montia</h5>
-                        <div class="mt-4">
-                            <p class="footer-desc">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                        </div>
-                        <div class="mt-4">
-                            <ul class="list-unstyled text-white footer-social list-inline">
-                                <li class="list-inline-item"><a href="#"><i class="mdi mdi-facebook facebook"></i></a></li>
-                                <li class="list-inline-item"><a href="#"><i class="mdi mdi-instagram instagram"></i></a></li>
-                                <li class="list-inline-item"><a href="#"><i class="mdi mdi-twitter twitter"></i></a></li>
-                                <li class="list-inline-item"><a href="#"><i class="mdi mdi-linkedin linkedin"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <h5 class="text-white footer-title">Support</h5>
-                        <div class="mt-4">
-                            <ul class="list-unstyled text-white footer-list">
-                                <li><a href="#">Help & Support</a></li>
-                                <li><a href="#">Privacy & Policy</a></li>
-                                <li><a href="#">News</a></li>
-                                <li><a href="#">Terms & Conditions</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <h5 class="text-white footer-title">Social links</h5>
-                        <div class="mt-4">
-                            <ul class="list-unstyled footer-list">
-                                <li><a href="#">Facebook</a></li>
-                                <li><a href="#">Twitter</a></li>
-                                <li><a href="#">Instagram</a></li>
-                                <li><a href="#">LinkedIn</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <h5 class="text-white footer-title">Get in touch</h5>
-                        <div class="mt-4">
-                            <p>Anusha : 8792602591</p>
-                            <p>Gulaisha: +1 67 89 01 23 4</p>
-                            <p>Annapurna: +1 00 12 34 5</p>
-                            <p>Mansi: +1 00 12 34 5</p>
-                            <p>support@example.com</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="footer-border"></div>
-                <div class="row pb-4">
-                    <div class="col-lg-12">
-                        <div class="float-right pull-none">
-                            <p class="mb-0">© Maag-Cafe <script>document.write(new Date().getFullYear())</script>.</p>
-                        </div>
-                        <div class="float-left pull-none">
-                            <p class="footer-terms"><a href="#">Terms</a> & <a href="#">Privacy Policy </a></p>
-                        </div>
+                    <div class="col-md-12 text-center">
+                        <p class="text-muted pt-5">Don't have an account?  <a href="signup.html" class="text-dark ml-1"><b>Sign Up</b></a></p>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- Footer end -->
+        <!-- login page end -->
+       
+<!-- Footer -->
+ <section class="bg-dark footer" id="contact">
+    <div class="container">
+        <div class="row pt-5">
+            <div class="col-lg-4">
+                <h5 class="text-white footer-title ">About WeGAMA</h5>
+                <div class="mt-4">
+                    <p class="footer-desc">WeGAMA, a platform where you can connect with thousands of people from all over the world. Meet people who see the world like you. It is a simple,fun and safe way to make new friends!!! </p>
+                </div>
+                
+            </div>
+            <div class="col-lg-3">
+                <h5 class="text-white footer-title">Support</h5>
+                <div class="mt-4">
+                    <ul class="list-unstyled text-white footer-list">
+                        <li><a href="#">Help & Support</a></li>
+                        <li><a href="#">Privacy & Policy</a></li>
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <h5 class="text-white footer-title">Social links</h5>
+                <div class="mt-4">
+                    <ul class="list-unstyled footer-list">
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">LinkedIn</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-2">
+                <h5 class="text-white footer-title">Get in touch</h5>
+                <div class="mt-4">
+                    <p>Anusha : 8792602591</p>
+                    <p>Gulaisha: 8673906231</p>
+                    <p>Annapurna: 9903455612</p>
+                    <p>Mansi: 9678457498</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-border"></div>
+        <div class="row pb-4">
+            <div class="col-lg-12">
+                <div class="float-right pull-none">
+                    <p class="mb-0">© WeGAMA <script>document.write(new Date().getFullYear())</script>.</p>
+                </div>
+                <div class="float-left pull-none">
+                    <p class="footer-terms"><a href="#">Terms</a> & <a href="#">Privacy Policy </a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Footer end -->
 
 
         <!-- js placed at the end of the document so the pages load faster -->
